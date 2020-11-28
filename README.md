@@ -1,4 +1,4 @@
-# Fruit Perfection Tutorial
+# Tandartspraktijk React Router tutorial
 
 Deze tutorial is ontwikkelt om je stapsgewijs wegwijs te maken in Routing met React, 
 naar aanleiding van de content uit de cursus **React** op EdHub.
