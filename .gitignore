@@ -2,8 +2,11 @@
 
 # dependencies
 /node_modules
+/.idea
 /.pnp
 .pnp.js
+
+.eslintcache
 
 # testing
 /coverage
