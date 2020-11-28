@@ -7,19 +7,19 @@ function TopMenu() {
         <h4>De Tandenborstel</h4>
 
         <ul>
-          <li className="link">
+          <li>
             Home
           </li>
 
-          <li className="link">
+          <li>
             Gaatjes
           </li>
 
-          <li className="link">
+          <li>
             Afspraak maken
           </li>
 
-          <li className="link">
+          <li>
             Tanden bleken
           </li>
         </ul>

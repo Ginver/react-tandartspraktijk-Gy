@@ -84,7 +84,3 @@ ul {
 .active-link {
   border-bottom: 2px solid white;
 }
-
-.link {
-  border-bottom: none;
-}
