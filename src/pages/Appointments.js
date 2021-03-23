@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader';
 import afspraak from '../assets/dentist.svg';
 
 function AppointmentsPage() {
+
   return (
     <div className="page-container">
        <PageHeader icon={afspraak} title="Afspraken" />

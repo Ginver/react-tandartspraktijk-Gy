@@ -9,6 +9,7 @@ function HomePage() {
     function handleClick() {
         history.push('/afspraak-maken');
     }
+
     return (
         <button type="button" onClick={handleClick}>
             Maak gelijk een afspraak!
