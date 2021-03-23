@@ -1,9 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageHeader from '../components/PageHeader';
 import logo from '../assets/toothbrushes.svg';
 
 function HomePage() {
+    const history = useHistory();
+
+    function handleClick() {
+        history.push('/afspraak-maken');
+    }
+    return (
+        <button type="button" onClick={handleClick}>
+            Maak gelijk een afspraak!
+        </button>
+    );
+
   return (
     <div className="page-container">
       <PageHeader icon={logo} title="Tandartspraktijk de Tandenborstel" />
